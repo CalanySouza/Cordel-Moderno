@@ -1,12 +1,19 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Sriracha&display=swap');
 
 * {
   margin: 0px;
   padding: 0px;
 }
+:root {
+  --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+  --font2: "Metal Mania", serif;
+  --font3: "Sriracha", serif;
+}
 html, body {
   background-color: rgb(78, 78, 78);
   min-height: 100vh;
+  font-family: var(--fonte1);
 } 
 header {
   background-color: black;
@@ -14,6 +21,8 @@ header {
   text-align: center;
 }
  header h1 {
+  font-size: 4.3vw;
+  font-family: var(--font2);
   padding-top: 50px;
   font-variant: small-caps;
 }
@@ -30,6 +39,8 @@ header a:hover, footer a:hover  {
   text-decoration: underline;
 }
 section {
+  font-size: 2.3vw;
+  font-family: var(--font3);
   padding-top: 10vh;
   padding-bottom: 10vh;
   line-height: 2em;
@@ -44,7 +55,8 @@ background-color: rgb(49, 49, 49);
 color: white;
 }
 .imagem p {
-  width: 400px;
+  padding: 5px;
+  display: inline-block;
   background-color: rgba(0, 0, 0, 0.292);
 }
 footer {
