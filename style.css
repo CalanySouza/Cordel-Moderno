@@ -16,7 +16,7 @@ html, body {
   font-family: var(--fonte1);
 } 
 header {
-  background-color: black;
+  background-color: rgb(32, 0, 148);
   color: white;
   text-align: center;
 }
@@ -51,7 +51,7 @@ background-color: white;
 color: black;
 }
 .imagem {
-background-color: rgb(49, 49, 49);
+background-color: rgb(27, 34, 143);
 color: white;
 }
 .imagem p {
