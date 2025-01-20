@@ -1,2 +1,2 @@
 # Cordel-Moderno
- Desafio 3 - curso de HTML5 e CSS módulo 3
+ Desafio - curso de HTML5 e CSS
